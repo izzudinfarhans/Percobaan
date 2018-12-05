@@ -21,6 +21,7 @@ import okhttp3.Response;
 
 public class MainActivity extends AppCompatActivity {
 
+    TextView tes;
     TextView txt_username,txt_password;
     Button btn_login;
     private static final String BASE_URL="http://api.lapakdhani.com/welcome/login";
